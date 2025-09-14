@@ -1,0 +1,353 @@
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\appsettings.Development.json
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\appsettings.json
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\DepartmentEmployeeSystem.API.exe
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\DepartmentEmployeeSystem.API.deps.json
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\DepartmentEmployeeSystem.API.runtimeconfig.json
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\DepartmentEmployeeSystem.API.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\DepartmentEmployeeSystem.API.pdb
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\AutoMapper.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Azure.Core.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Azure.Identity.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\FluentValidation.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Humanizer.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\System.ClientModel.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\System.CodeDom.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\System.Text.Json.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\obj\Debug\net8.0\DepartmentEmployeeSystem.API.csproj.AssemblyReference.cache
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\obj\Debug\net8.0\DepartmentEmployeeSystem.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\obj\Debug\net8.0\DepartmentEmployeeSystem.API.AssemblyInfoInputs.cache
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\obj\Debug\net8.0\DepartmentEmployeeSystem.API.AssemblyInfo.cs
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\obj\Debug\net8.0\DepartmentEmployeeSystem.API.csproj.CoreCompileInputs.cache
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\obj\Debug\net8.0\DepartmentEmployeeSystem.API.MvcApplicationPartsAssemblyInfo.cs
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\obj\Debug\net8.0\DepartmentEmployeeSystem.API.MvcApplicationPartsAssemblyInfo.cache
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\obj\Debug\net8.0\staticwebassets.build.json
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\obj\Debug\net8.0\staticwebassets.development.json
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\obj\Debug\net8.0\staticwebassets\msbuild.DepartmentEmployeeSystem.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\obj\Debug\net8.0\staticwebassets\msbuild.build.DepartmentEmployeeSystem.API.props
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DepartmentEmployeeSystem.API.props
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DepartmentEmployeeSystem.API.props
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\obj\Debug\net8.0\scopedcss\bundle\DepartmentEmployeeSystem.API.styles.css
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\obj\Debug\net8.0\Departme.37BDDD58.Up2Date
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\obj\Debug\net8.0\DepartmentEmployeeSystem.API.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\obj\Debug\net8.0\refint\DepartmentEmployeeSystem.API.dll
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\obj\Debug\net8.0\DepartmentEmployeeSystem.API.pdb
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\obj\Debug\net8.0\DepartmentEmployeeSystem.API.genruntimeconfig.cache
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\obj\Debug\net8.0\ref\DepartmentEmployeeSystem.API.dll
+<<<<<<< HEAD
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\appsettings.Development.json
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\appsettings.json
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\DepartmentEmployeeSystem.API.staticwebassets.endpoints.json
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\DepartmentEmployeeSystem.API.exe
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\DepartmentEmployeeSystem.API.deps.json
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\DepartmentEmployeeSystem.API.runtimeconfig.json
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\DepartmentEmployeeSystem.API.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\DepartmentEmployeeSystem.API.pdb
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\AutoMapper.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Azure.Core.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Azure.Identity.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\FluentValidation.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Humanizer.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\System.ClientModel.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\System.CodeDom.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\System.Memory.Data.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\System.Text.Json.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\FullStack-Project\Backend-API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\FullStack-Project\Backend-API\obj\Debug\net8.0\DepartmentEmployeeSystem.API.csproj.AssemblyReference.cache
+D:\FullStack-Project\Backend-API\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\FullStack-Project\Backend-API\obj\Debug\net8.0\DepartmentEmployeeSystem.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\FullStack-Project\Backend-API\obj\Debug\net8.0\DepartmentEmployeeSystem.API.AssemblyInfoInputs.cache
+D:\FullStack-Project\Backend-API\obj\Debug\net8.0\DepartmentEmployeeSystem.API.AssemblyInfo.cs
+D:\FullStack-Project\Backend-API\obj\Debug\net8.0\DepartmentEmployeeSystem.API.csproj.CoreCompileInputs.cache
+D:\FullStack-Project\Backend-API\obj\Debug\net8.0\DepartmentEmployeeSystem.API.MvcApplicationPartsAssemblyInfo.cs
+D:\FullStack-Project\Backend-API\obj\Debug\net8.0\DepartmentEmployeeSystem.API.MvcApplicationPartsAssemblyInfo.cache
+D:\FullStack-Project\Backend-API\obj\Debug\net8.0\DepartmentEmployeeSystem.API.sourcelink.json
+D:\FullStack-Project\Backend-API\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\FullStack-Project\Backend-API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\FullStack-Project\Backend-API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\FullStack-Project\Backend-API\obj\Debug\net8.0\scopedcss\bundle\DepartmentEmployeeSystem.API.styles.css
+D:\FullStack-Project\Backend-API\obj\Debug\net8.0\staticwebassets.build.json
+D:\FullStack-Project\Backend-API\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\FullStack-Project\Backend-API\obj\Debug\net8.0\staticwebassets.development.json
+D:\FullStack-Project\Backend-API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\FullStack-Project\Backend-API\obj\Debug\net8.0\Departme.37BDDD58.Up2Date
+D:\FullStack-Project\Backend-API\obj\Debug\net8.0\DepartmentEmployeeSystem.API.dll
+D:\FullStack-Project\Backend-API\obj\Debug\net8.0\refint\DepartmentEmployeeSystem.API.dll
+D:\FullStack-Project\Backend-API\obj\Debug\net8.0\DepartmentEmployeeSystem.API.pdb
+D:\FullStack-Project\Backend-API\obj\Debug\net8.0\DepartmentEmployeeSystem.API.genruntimeconfig.cache
+D:\FullStack-Project\Backend-API\obj\Debug\net8.0\ref\DepartmentEmployeeSystem.API.dll
+=======
+D:\Heshan\Developments\test\FullStack Projects\DepartmentEmployeeSystem.API\obj\Debug\net8.0\DepartmentEmployeeSystem.API.sourcelink.json
+>>>>>>> 5a9273d5f939caa627fab965ec627a1214ff8419
