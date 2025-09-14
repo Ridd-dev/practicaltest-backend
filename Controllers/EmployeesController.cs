@@ -1,11 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
-using DepartmentEmployeeSystem.API.DTOs;
-using DepartmentEmployeeSystem.API.Services;
+using DepartmentEmployeeSystem.API.Interfaces;
+using DepartmentEmployeeSystem.API.Models;
 
 namespace DepartmentEmployeeSystem.API.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class EmployeesController : ControllerBase
     {
         private readonly IEmployeeService _employeeService;
@@ -16,7 +16,7 @@ namespace DepartmentEmployeeSystem.API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<EmployeeDto>>> GetAllEmployees()
+        public async Task<ActionResult<List<Employee>>> GetEmployees()
         {
             try
             {
@@ -25,26 +25,30 @@ namespace DepartmentEmployeeSystem.API.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(500, new { message = "An error occurred while retrieving employees.", error = ex.Message });
+                return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<EmployeeDto>> GetEmployee(int id)
+        public async Task<ActionResult<Employee>> GetEmployee(int id)
         {
             try
             {
                 var employee = await _employeeService.GetEmployeeByIdAsync(id);
-                return employee == null ? NotFound(new { message = "Employee not found." }) : Ok(employee);
+                if (employee == null)
+                {
+                    return NotFound($"Employee with ID {id} not found.");
+                }
+                return Ok(employee);
             }
             catch (Exception ex)
             {
-                return StatusCode(500, new { message = "An error occurred while retrieving the employee.", error = ex.Message });
+                return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
 
         [HttpGet("department/{departmentId}")]
-        public async Task<ActionResult<IEnumerable<EmployeeDto>>> GetEmployeesByDepartment(int departmentId)
+        public async Task<ActionResult<List<Employee>>> GetEmployeesByDepartment(int departmentId)
         {
             try
             {
@@ -53,57 +57,75 @@ namespace DepartmentEmployeeSystem.API.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(500, new { message = "An error occurred while retrieving employees.", error = ex.Message });
+                return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
 
         [HttpPost]
-        public async Task<ActionResult<EmployeeDto>> CreateEmployee(CreateEmployeeDto createEmployeeDto)
+        public async Task<ActionResult<Employee>> CreateEmployee([FromBody] CreateEmployeeDto dto)
         {
             try
             {
-                var employee = await _employeeService.CreateEmployeeAsync(createEmployeeDto);
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
+                var employee = await _employeeService.CreateEmployeeAsync(dto);
                 return CreatedAtAction(nameof(GetEmployee), new { id = employee.EmployeeId }, employee);
             }
             catch (ArgumentException ex)
             {
-                return BadRequest(new { message = ex.Message });
+                return BadRequest(ex.Message);
             }
             catch (Exception ex)
             {
-                return StatusCode(500, new { message = "An error occurred while creating the employee.", error = ex.Message });
+                return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult<EmployeeDto>> UpdateEmployee(int id, UpdateEmployeeDto updateEmployeeDto)
+        public async Task<ActionResult<Employee>> UpdateEmployee(int id, [FromBody] UpdateEmployeeDto dto)
         {
             try
             {
-                var employee = await _employeeService.UpdateEmployeeAsync(id, updateEmployeeDto);
-                return employee == null ? NotFound(new { message = "Employee not found." }) : Ok(employee);
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
+                var employee = await _employeeService.UpdateEmployeeAsync(id, dto);
+                if (employee == null)
+                {
+                    return NotFound($"Employee with ID {id} not found.");
+                }
+                return Ok(employee);
             }
             catch (ArgumentException ex)
             {
-                return BadRequest(new { message = ex.Message });
+                return BadRequest(ex.Message);
             }
             catch (Exception ex)
             {
-                return StatusCode(500, new { message = "An error occurred while updating the employee.", error = ex.Message });
+                return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteEmployee(int id)
+        public async Task<ActionResult> DeleteEmployee(int id)
         {
             try
             {
                 var result = await _employeeService.DeleteEmployeeAsync(id);
-                return result ? NoContent() : NotFound(new { message = "Employee not found." });
+                if (!result)
+                {
+                    return NotFound($"Employee with ID {id} not found.");
+                }
+                return NoContent();
             }
             catch (Exception ex)
             {
-                return StatusCode(500, new { message = "An error occurred while deleting the employee.", error = ex.Message });
+                return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
     }

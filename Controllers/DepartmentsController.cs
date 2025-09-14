@@ -1,11 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
-using DepartmentEmployeeSystem.API.DTOs;
-using DepartmentEmployeeSystem.API.Services;
+using DepartmentEmployeeSystem.API.Interfaces;
+using DepartmentEmployeeSystem.API.Models;
 
 namespace DepartmentEmployeeSystem.API.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class DepartmentsController : ControllerBase
     {
         private readonly IDepartmentService _departmentService;
@@ -16,7 +16,7 @@ namespace DepartmentEmployeeSystem.API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<DepartmentDto>>> GetAllDepartments()
+        public async Task<ActionResult<List<Department>>> GetDepartments()
         {
             try
             {
@@ -25,75 +25,97 @@ namespace DepartmentEmployeeSystem.API.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(500, new { message = "An error occurred while retrieving departments.", error = ex.Message });
+                return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<DepartmentDto>> GetDepartment(int id)
+        public async Task<ActionResult<Department>> GetDepartment(int id)
         {
             try
             {
                 var department = await _departmentService.GetDepartmentByIdAsync(id);
-                return department == null ? NotFound(new { message = "Department not found." }) : Ok(department);
+                if (department == null)
+                {
+                    return NotFound($"Department with ID {id} not found.");
+                }
+                return Ok(department);
             }
             catch (Exception ex)
             {
-                return StatusCode(500, new { message = "An error occurred while retrieving the department.", error = ex.Message });
+                return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
 
         [HttpPost]
-        public async Task<ActionResult<DepartmentDto>> CreateDepartment(CreateDepartmentDto createDepartmentDto)
+        public async Task<ActionResult<Department>> CreateDepartment([FromBody] CreateDepartmentDto dto)
         {
             try
             {
-                var department = await _departmentService.CreateDepartmentAsync(createDepartmentDto);
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
+                var department = await _departmentService.CreateDepartmentAsync(dto);
                 return CreatedAtAction(nameof(GetDepartment), new { id = department.DepartmentId }, department);
             }
             catch (ArgumentException ex)
             {
-                return BadRequest(new { message = ex.Message });
+                return BadRequest(ex.Message);
             }
             catch (Exception ex)
             {
-                return StatusCode(500, new { message = "An error occurred while creating the department.", error = ex.Message });
+                return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult<DepartmentDto>> UpdateDepartment(int id, UpdateDepartmentDto updateDepartmentDto)
+        public async Task<ActionResult<Department>> UpdateDepartment(int id, [FromBody] UpdateDepartmentDto dto)
         {
             try
             {
-                var department = await _departmentService.UpdateDepartmentAsync(id, updateDepartmentDto);
-                return department == null ? NotFound(new { message = "Department not found." }) : Ok(department);
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
+                var department = await _departmentService.UpdateDepartmentAsync(id, dto);
+                if (department == null)
+                {
+                    return NotFound($"Department with ID {id} not found.");
+                }
+                return Ok(department);
             }
             catch (ArgumentException ex)
             {
-                return BadRequest(new { message = ex.Message });
+                return BadRequest(ex.Message);
             }
             catch (Exception ex)
             {
-                return StatusCode(500, new { message = "An error occurred while updating the department.", error = ex.Message });
+                return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteDepartment(int id)
+        public async Task<ActionResult> DeleteDepartment(int id)
         {
             try
             {
                 var result = await _departmentService.DeleteDepartmentAsync(id);
-                return result ? NoContent() : NotFound(new { message = "Department not found." });
+                if (!result)
+                {
+                    return NotFound($"Department with ID {id} not found.");
+                }
+                return NoContent();
             }
             catch (InvalidOperationException ex)
             {
-                return BadRequest(new { message = ex.Message });
+                return BadRequest(ex.Message);
             }
             catch (Exception ex)
             {
-                return StatusCode(500, new { message = "An error occurred while deleting the department.", error = ex.Message });
+                return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
     }

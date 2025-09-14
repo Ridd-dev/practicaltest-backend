@@ -1,60 +1,107 @@
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DepartmentEmployeeSystem.API.Models
 {
     public class Employee
     {
-        [Key]
         public int EmployeeId { get; set; }
-
+        
         [Required]
         [StringLength(50)]
         public string FirstName { get; set; } = string.Empty;
-
+        
         [Required]
         [StringLength(50)]
         public string LastName { get; set; } = string.Empty;
-
+        
         [Required]
         [EmailAddress]
         [StringLength(100)]
         public string EmailAddress { get; set; } = string.Empty;
-
+        
         [Required]
-        [DataType(DataType.Date)]
         public DateTime DateOfBirth { get; set; }
-
-        [NotMapped]
-        public int Age
-        {
-            get
-            {
-                var today = DateTime.Today;
-                var age = today.Year - DateOfBirth.Year;
-                if (DateOfBirth.Date > today.AddYears(-age)) age--;
-                return age;
-            }
-        }
-
+        
         [Required]
-        [Column(TypeName = "decimal(18,2)")]
         [Range(0, double.MaxValue)]
         public decimal Salary { get; set; }
-
+        
         [StringLength(15)]
         public string? PhoneNumber { get; set; }
-
+        
         public bool IsActive { get; set; } = true;
-
-        public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
-
+        
+        public DateTime CreatedDate { get; set; }
+        
         public DateTime? ModifiedDate { get; set; }
-
+        
         [Required]
         public int DepartmentId { get; set; }
 
-        [ForeignKey("DepartmentId")]
-        public virtual Department Department { get; set; } = null!;
+        // Computed properties
+        public string FullName => $"{FirstName} {LastName}";
+        public int Age => DateTime.Now.Year - DateOfBirth.Year - (DateTime.Now.DayOfYear < DateOfBirth.DayOfYear ? 1 : 0);
+        public string DepartmentName { get; set; } = string.Empty;
+        public string DepartmentCode { get; set; } = string.Empty;
+    }
+
+    public class CreateEmployeeDto
+    {
+        [Required]
+        [StringLength(50)]
+        public string FirstName { get; set; } = string.Empty;
+        
+        [Required]
+        [StringLength(50)]
+        public string LastName { get; set; } = string.Empty;
+        
+        [Required]
+        [EmailAddress]
+        [StringLength(100)]
+        public string EmailAddress { get; set; } = string.Empty;
+        
+        [Required]
+        public DateTime DateOfBirth { get; set; }
+        
+        [Required]
+        [Range(0, double.MaxValue)]
+        public decimal Salary { get; set; }
+        
+        [StringLength(15)]
+        public string? PhoneNumber { get; set; }
+        
+        [Required]
+        public int DepartmentId { get; set; }
+    }
+
+    public class UpdateEmployeeDto
+    {
+        [Required]
+        [StringLength(50)]
+        public string FirstName { get; set; } = string.Empty;
+        
+        [Required]
+        [StringLength(50)]
+        public string LastName { get; set; } = string.Empty;
+        
+        [Required]
+        [EmailAddress]
+        [StringLength(100)]
+        public string EmailAddress { get; set; } = string.Empty;
+        
+        [Required]
+        public DateTime DateOfBirth { get; set; }
+        
+        [Required]
+        [Range(0, double.MaxValue)]
+        public decimal Salary { get; set; }
+        
+        [StringLength(15)]
+        public string? PhoneNumber { get; set; }
+        
+        [Required]
+        public int DepartmentId { get; set; }
+        
+        public bool IsActive { get; set; } = true;
     }
 }

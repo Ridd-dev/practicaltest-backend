@@ -1,5 +1,4 @@
 using AutoMapper;
-using DepartmentEmployeeSystem.API.DTOs;
 using DepartmentEmployeeSystem.API.Interfaces;
 using DepartmentEmployeeSystem.API.Models;
 
@@ -11,68 +10,66 @@ namespace DepartmentEmployeeSystem.API.Services
         private readonly IDepartmentRepository _departmentRepository;
         private readonly IMapper _mapper;
 
-        public EmployeeService(IEmployeeRepository employeeRepository, IDepartmentRepository departmentRepository, IMapper mapper)
+        public EmployeeService(
+            IEmployeeRepository employeeRepository,
+            IDepartmentRepository departmentRepository,
+            IMapper mapper)
         {
             _employeeRepository = employeeRepository;
             _departmentRepository = departmentRepository;
             _mapper = mapper;
         }
 
-        public async Task<IEnumerable<EmployeeDto>> GetAllEmployeesAsync()
+        public async Task<List<Employee>> GetAllEmployeesAsync()
         {
-            var employees = await _employeeRepository.GetAllAsync();
-            return _mapper.Map<IEnumerable<EmployeeDto>>(employees);
+            return await _employeeRepository.GetAllAsync();
         }
 
-        public async Task<EmployeeDto?> GetEmployeeByIdAsync(int id)
+        public async Task<Employee?> GetEmployeeByIdAsync(int id)
         {
-            var employee = await _employeeRepository.GetByIdAsync(id);
-            return employee == null ? null : _mapper.Map<EmployeeDto>(employee);
+            return await _employeeRepository.GetByIdAsync(id);
         }
 
-        public async Task<IEnumerable<EmployeeDto>> GetEmployeesByDepartmentAsync(int departmentId)
+        public async Task<List<Employee>> GetEmployeesByDepartmentAsync(int departmentId)
         {
-            var employees = await _employeeRepository.GetEmployeesByDepartmentAsync(departmentId);
-            return _mapper.Map<IEnumerable<EmployeeDto>>(employees);
+            return await _employeeRepository.GetByDepartmentAsync(departmentId);
         }
 
-        public async Task<EmployeeDto> CreateEmployeeAsync(CreateEmployeeDto createEmployeeDto)
+        public async Task<Employee> CreateEmployeeAsync(CreateEmployeeDto dto)
         {
-            if (!await _employeeRepository.IsEmailUniqueAsync(createEmployeeDto.EmailAddress))
+            if (await _employeeRepository.EmailExistsAsync(dto.EmailAddress))
             {
                 throw new ArgumentException("Email address already exists.");
             }
 
-            if (!await _departmentRepository.ExistsAsync(d => d.DepartmentId == createEmployeeDto.DepartmentId && d.IsActive))
+            if (!await _departmentRepository.ExistsAsync(dto.DepartmentId))
             {
                 throw new ArgumentException("Department does not exist.");
             }
 
-            var employee = _mapper.Map<Employee>(createEmployeeDto);
-            var createdEmployee = await _employeeRepository.AddAsync(employee);
-            return _mapper.Map<EmployeeDto>(createdEmployee);
+            var employee = _mapper.Map<Employee>(dto);
+            return await _employeeRepository.CreateAsync(employee);
         }
 
-        public async Task<EmployeeDto?> UpdateEmployeeAsync(int id, UpdateEmployeeDto updateEmployeeDto)
+        public async Task<Employee?> UpdateEmployeeAsync(int id, UpdateEmployeeDto dto)
         {
             var existingEmployee = await _employeeRepository.GetByIdAsync(id);
             if (existingEmployee == null) return null;
 
-            if (!await _employeeRepository.IsEmailUniqueAsync(updateEmployeeDto.EmailAddress, id))
+            if (await _employeeRepository.EmailExistsAsync(dto.EmailAddress, id))
             {
                 throw new ArgumentException("Email address already exists.");
             }
 
-            if (!await _departmentRepository.ExistsAsync(d => d.DepartmentId == updateEmployeeDto.DepartmentId && d.IsActive))
+            if (!await _departmentRepository.ExistsAsync(dto.DepartmentId))
             {
                 throw new ArgumentException("Department does not exist.");
             }
 
-            _mapper.Map(updateEmployeeDto, existingEmployee);
-            existingEmployee.ModifiedDate = DateTime.UtcNow;
-            
-            var updatedEmployee = await _employeeRepository.UpdateAsync(existingEmployee);
-            return _mapper.Map<EmployeeDto>(updatedEmployee);
+            _mapper.Map(dto, existingEmployee);
+            existingEmployee.EmployeeId = id;
+
+            return await _employeeRepository.UpdateAsync(existingEmployee);
         }
 
         public async Task<bool> DeleteEmployeeAsync(int id)

@@ -1,5 +1,4 @@
 using AutoMapper;
-using DepartmentEmployeeSystem.API.DTOs;
 using DepartmentEmployeeSystem.API.Interfaces;
 using DepartmentEmployeeSystem.API.Models;
 
@@ -16,64 +15,49 @@ namespace DepartmentEmployeeSystem.API.Services
             _mapper = mapper;
         }
 
-        public async Task<IEnumerable<DepartmentDto>> GetAllDepartmentsAsync()
+        public async Task<List<Department>> GetAllDepartmentsAsync()
         {
-            var departments = await _departmentRepository.GetDepartmentsWithEmployeeCountAsync();
-            return departments.Select(d => new DepartmentDto
-            {
-                DepartmentId = d.DepartmentId,
-                DepartmentCode = d.DepartmentCode,
-                DepartmentName = d.DepartmentName,
-                Description = d.Description,
-                IsActive = d.IsActive,
-                CreatedDate = d.CreatedDate,
-                ModifiedDate = d.ModifiedDate,
-                EmployeeCount = d.Employees.Count(e => e.IsActive)
-            });
+            return await _departmentRepository.GetAllAsync();
         }
 
-        public async Task<DepartmentDto?> GetDepartmentByIdAsync(int id)
+        public async Task<Department?> GetDepartmentByIdAsync(int id)
         {
-            var department = await _departmentRepository.GetByIdAsync(id);
-            return department == null ? null : _mapper.Map<DepartmentDto>(department);
+            return await _departmentRepository.GetByIdAsync(id);
         }
 
-        public async Task<DepartmentDto> CreateDepartmentAsync(CreateDepartmentDto createDepartmentDto)
+        public async Task<Department> CreateDepartmentAsync(CreateDepartmentDto dto)
         {
-            if (!await _departmentRepository.IsDepartmentCodeUniqueAsync(createDepartmentDto.DepartmentCode))
+            if (await _departmentRepository.CodeExistsAsync(dto.DepartmentCode))
             {
                 throw new ArgumentException("Department code already exists.");
             }
 
-            var department = _mapper.Map<Department>(createDepartmentDto);
-            var createdDepartment = await _departmentRepository.AddAsync(department);
-            return _mapper.Map<DepartmentDto>(createdDepartment);
+            var department = _mapper.Map<Department>(dto);
+            return await _departmentRepository.CreateAsync(department);
         }
 
-        public async Task<DepartmentDto?> UpdateDepartmentAsync(int id, UpdateDepartmentDto updateDepartmentDto)
+        public async Task<Department?> UpdateDepartmentAsync(int id, UpdateDepartmentDto dto)
         {
             var existingDepartment = await _departmentRepository.GetByIdAsync(id);
             if (existingDepartment == null) return null;
 
-            if (!await _departmentRepository.IsDepartmentCodeUniqueAsync(updateDepartmentDto.DepartmentCode, id))
+            if (await _departmentRepository.CodeExistsAsync(dto.DepartmentCode, id))
             {
                 throw new ArgumentException("Department code already exists.");
             }
 
-            _mapper.Map(updateDepartmentDto, existingDepartment);
-            existingDepartment.ModifiedDate = DateTime.UtcNow;
+            _mapper.Map(dto, existingDepartment);
+            existingDepartment.DepartmentId = id;
             
-            var updatedDepartment = await _departmentRepository.UpdateAsync(existingDepartment);
-            return _mapper.Map<DepartmentDto>(updatedDepartment);
+            return await _departmentRepository.UpdateAsync(existingDepartment);
         }
 
         public async Task<bool> DeleteDepartmentAsync(int id)
         {
-            // Use the specific repository method that already includes employees
-            var departmentWithEmployees = (await _departmentRepository.GetDepartmentsWithEmployeeCountAsync())
-                .FirstOrDefault(d => d.DepartmentId == id);
-            
-            if (departmentWithEmployees?.Employees.Any(e => e.IsActive) == true)
+            var department = await _departmentRepository.GetByIdAsync(id);
+            if (department == null) return false;
+
+            if (department.EmployeeCount > 0)
             {
                 throw new InvalidOperationException("Cannot delete department with active employees.");
             }

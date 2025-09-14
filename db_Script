@@ -1,0 +1,43 @@
+CREATE DATABASE DepartmentEmployeeDB;
+GO
+
+USE DepartmentEmployeeDB;
+GO
+
+CREATE TABLE Departments (
+    DepartmentId INT IDENTITY(1,1) PRIMARY KEY,
+    DepartmentCode NVARCHAR(10) NOT NULL UNIQUE,
+    DepartmentName NVARCHAR(100) NOT NULL,
+    Description NVARCHAR(500) NULL,
+    IsActive BIT NOT NULL DEFAULT 1,
+    CreatedDate DATETIME2 NOT NULL DEFAULT GETDATE(),
+    ModifiedDate DATETIME2 NULL
+);
+
+CREATE TABLE Employees (
+    EmployeeId INT IDENTITY(1,1) PRIMARY KEY,
+    FirstName NVARCHAR(50) NOT NULL,
+    LastName NVARCHAR(50) NOT NULL,
+    EmailAddress NVARCHAR(100) NOT NULL UNIQUE,
+    DateOfBirth DATETIME2 NOT NULL,
+    Salary DECIMAL(18,2) NOT NULL,
+    PhoneNumber NVARCHAR(15) NULL,
+    IsActive BIT NOT NULL DEFAULT 1,
+    CreatedDate DATETIME2 NOT NULL DEFAULT GETDATE(),
+    ModifiedDate DATETIME2 NULL,
+    DepartmentId INT NOT NULL,
+    FOREIGN KEY (DepartmentId) REFERENCES Departments(DepartmentId)
+);
+
+-- Insert sample data
+INSERT INTO Departments (DepartmentCode, DepartmentName, Description, IsActive, CreatedDate)
+VALUES
+    ('IT', 'Information Technology', 'Handles all technical operations', 1, GETDATE()),
+    ('HR', 'Human Resources', 'Manages employee relations and policies', 1, GETDATE()),
+    ('FIN', 'Finance', 'Handles financial operations and accounting', 1, GETDATE());
+
+INSERT INTO Employees (FirstName, LastName, EmailAddress, DateOfBirth, Salary, PhoneNumber, IsActive, CreatedDate, DepartmentId)
+VALUES
+    ('John', 'Doe', 'john.doe@company.com', '1985-05-15', 75000.00, '+1234567890', 1, GETDATE(), 1),
+    ('Jane', 'Smith', 'jane.smith@company.com', '1990-08-22', 65000.00, '+1234567891', 1, GETDATE(), 2),
+    ('Mike', 'Johnson', 'mike.johnson@company.com', '1988-03-10', 80000.00, '+1234567892', 1, GETDATE(), 1);
